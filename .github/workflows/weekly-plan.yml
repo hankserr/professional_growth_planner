@@ -1,0 +1,34 @@
+name: Weekly Planner
+
+on:
+  schedule:
+    - cron: "0 13 * * 0"  # Runs every Sunday at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  create-weekly-plan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set week info
+        run: |
+          YEAR=$(date -u +'%Y')
+          WEEK=$(date -u +'%V')
+          echo "WEEK_ID=${YEAR}-W${WEEK}" >> $GITHUB_ENV
+
+      - name: Copy Weekly Template
+        run: |
+          mkdir -p weekly_plans
+          cp WEEKLY_PLANNER.md weekly_plans/${{ env.WEEK_ID }}.md
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add weekly_plans/${{ env.WEEK_ID }}.md
+          git commit -m "📅 Add weekly planner for ${{ env.WEEK_ID }}"
+          git push
+
