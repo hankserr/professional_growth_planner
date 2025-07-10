@@ -3,14 +3,14 @@
 ## 🗓️ Monday–Friday (8 hrs/day)
 
 ### ⏰ Daily Schedule
-- **9:00–10:00 AM** — Job applications + LinkedIn outreach
-- **10:00–11:30 AM** — IBM AI Engineering Certification Study
-- **11:30–11:45 AM** — Short break
-- **11:45–1:45 PM** — AI Calendar Assistant Project
-- **1:45–2:45 PM** — Lunch
-- **2:45–4:15 PM** — Open Source Contributions
-- **4:15–4:30 PM** — Short break
-- **4:30–5:30 PM** — Technical Content Creation
+- **Hour 1** — Job applications + LinkedIn outreach
+- **Hour 2** — IBM AI Engineering Certification Study
+- **Hour 3** — IBM AI Engineering Certification Study (continued)
+- **Hour 4** — AI Calendar Assistant Project
+- **Hour 5** — AI Calendar Assistant Project (continued)
+- **Hour 6** — Open Source Contributions
+- **Hour 7** — Open Source Contributions (continued)
+- **Hour 8** — Technical Content Creation
 
 ---
 
