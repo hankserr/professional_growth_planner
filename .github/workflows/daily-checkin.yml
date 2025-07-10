@@ -23,6 +23,8 @@ jobs:
           mkdir -p checkins
           if [ ! -f "checkins/${{ env.DATE }}.md" ]; then
             cp DAILY_CHECKIN_TEMPLATE.md checkins/${{ env.DATE }}.md
+            # Replace [DATE] placeholder with actual date
+            sed -i "s/\[DATE\]/${{ env.DATE }}/g" checkins/${{ env.DATE }}.md
             echo "CREATED_FILE=true" >> $GITHUB_ENV
           else
             echo "CREATED_FILE=false" >> $GITHUB_ENV
