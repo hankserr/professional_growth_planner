@@ -1,5 +1,13 @@
 # 🧠 Weekly Planner — Software/ML Engineering Growth
 
+## 📘 Sunday (3 hrs, no breaks)
+
+- **Hour 1** — Weekly Reflection + Planning
+- **Hour 2** — Open Source Wrap-up or Blog Polish
+- **Hour 3** — Personal Project Work Time
+
+---
+
 ## 🗓️ Monday–Friday (8 hrs/day)
 
 ### ⏰ Daily Schedule
@@ -17,14 +25,6 @@
 ## 🧪 Saturday (3 hrs, no breaks)
 
 - **Hour 1-3** — Deep Dive (MLOps / GPU Profiling / System Design)
-
----
-
-## 📘 Sunday (3 hrs, no breaks)
-
-- **Hour 1** — Weekly Reflection + Planning
-- **Hour 2** — Open Source Wrap-up or Blog Polish
-- **Hour 3** — Personal Project Work Time
 
 ---
 
