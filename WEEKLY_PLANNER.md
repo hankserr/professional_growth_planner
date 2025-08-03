@@ -31,10 +31,10 @@
 ## 🎯 Weekly Goals
 - [ ] Finish one IBM AI Eng course/module
 - [ ] Ship 1 PR to an OSS repo
-- [ ] Draft or publish 1 technical blog post or video
-- [ ] Add 10 new LinkedIn connections
-- [ ] Apply to 10+ high-fit roles
-- [ ] Ship feature or improvement to AI Calendar Assistant
+- [ ] Draft or publish 1 technical blog post
+- [ ] Add (10:10) new LinkedIn connections
+- [ ] Apply to (10:10) high-fit roles
+- [ ] Ship feature(s) or improvement(s) to AI Calendar Assistant
 
 ---
 
